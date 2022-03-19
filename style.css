@@ -72,7 +72,7 @@ body{
 .title-generate{
     text-align: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 28px;
     margin: 24px 0 20px 0;
 }
 
@@ -87,6 +87,8 @@ body{
     font-size: 20px;
     border: 1px solid #313131;
     transition: transform 0.5s;
+    cursor: pointer;
+   
 }
 
 .password:hover{
