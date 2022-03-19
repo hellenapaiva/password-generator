@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="gerador de senhas, generate password" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Gerador de senha</title>
+  </head>
+  <body>
+    <img class="logo" src="./assets/pass.png" alt="logo" />
+    <img class="generate" src="./assets/logo-pass.png" />
+
+    <main class="container">
+      <span>Tamanho<span id="valor"></span> caracteres</span>
+      <input
+        class="slider"
+        type="range"
+        class="slider"
+        min="6"
+        max="25"
+        value="15"
+      />
+      <button id="button" class="button-cta">GERAR</button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+        <span class="title-generate">Seu senha gerada foi:</span>
+        <span id="password" class="password">123456789</span>
+        <span class="tooltip">Clique na senha pra copiar 👆</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
