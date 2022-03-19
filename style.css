@@ -118,3 +118,31 @@ body{
     bottom: 50px;
     opacity: 1;
 }
+
+
+@media (max-width: 480px){
+    .logo{
+        max-width: 300px;
+        
+    }
+    
+    .generate{
+        margin-bottom: 24px;
+        max-width: 350px;
+    }
+
+    .container{
+        max-width: 90%;
+        
+    }
+
+    .container-password{
+        max-width: 90%;
+    }
+
+    .container-password:hover .tooltip{
+        visibility: visible;
+        bottom: 50px;
+        opacity: 1;
+    }
+}
